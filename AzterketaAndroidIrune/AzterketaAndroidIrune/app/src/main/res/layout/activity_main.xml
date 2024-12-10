@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Aplikazioaren izenburua -->
+    <TextView
+        android:id="@+id/txtAppIzenburua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Erregistroa"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:padding="8dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- EditText para el nombre -->
+    <EditText
+        android:id="@+id/etIzena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:hint="Izen-Abizenak"
+        android:inputType="text"
+        android:maxLength="75"
+        android:layout_marginLeft="10dp" />
+
+    <!-- EditText para la ciudad -->
+    <EditText
+        android:id="@+id/etHerria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:hint="Herria"
+        android:inputType="text"
+        android:maxLength="50"
+        android:layout_marginLeft="10dp" />
+
+    <!-- EditText para la edad -->
+    <EditText
+        android:id="@+id/etAdina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:hint="Adina"
+        android:inputType="number"
+        android:layout_marginLeft="10dp" />
+
+    <!-- Spinner para la selección -->
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:entries="@array/spinner" />
+
+    <!-- CheckBox para federación -->
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Federatua" />
+
+    <!-- Botones -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <!-- Botón Gorde -->
+        <Button
+            android:id="@+id/btnGorde"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Gorde" />
+
+        <!-- Botón Garbitu -->
+        <Button
+            android:id="@+id/btnGarbitu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:text="Garbitu" />
+    </LinearLayout>
+
+</LinearLayout>

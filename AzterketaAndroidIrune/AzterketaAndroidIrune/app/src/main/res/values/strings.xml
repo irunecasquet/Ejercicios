@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">AzterketaAndroidIrune</string>
+    <string name="izenburu2">Ordainketa</string>
+    <string name="btn_gorde">Gorde</string>
+    <string name="btn_garbitu">Garbitu</string>
+    <string-array name="spinner">
+        <item>Mendi Lasterketa</item>
+        <item>Mendi Martxa</item>
+    </string-array>
+    <string-array name="spinnerUrtea">
+        <item>2024</item>
+        <item>2025</item>
+        <item>2026</item>
+    </string-array>
+    <string-array name="spinnerHilabetea">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+</resources>
